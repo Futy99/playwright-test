@@ -41,6 +41,10 @@ To execute the test suite, run the following command:
 ```
   npx playwright test booking.spec.ts --project=chromium --workers=1
 ```
+or run in UI (remember to run whole spec test scenario as it run in serial)
+```
+  npx playwright test --ui
+```
 
 ### Test Cases
 The following test scenarios are covered in the automation suite:
